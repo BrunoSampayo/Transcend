@@ -12,6 +12,9 @@
     h1 {
         font-family: 'Domine', serif;
     }
+    /*---------*/
+    /*Header*/
+    /*---------*/
     
     header {
         display: flex;
@@ -80,6 +83,9 @@
         border-radius: 2px;
         background-color: #fff;
     }
+    /*---------------*/
+    /*Section Main*/
+    /*---------------*/
     
     .main {
         height: 100vh;
@@ -301,4 +307,11 @@
         display: block;
         margin: auto;
         margin-top: 6px;
+    }
+    /*---------------*/
+    /*Section Main*/
+    /*---------------*/
+    
+    .aboutus {
+        height: 200vh;
     }
