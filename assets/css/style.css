@@ -309,9 +309,103 @@
         margin-top: 6px;
     }
     /*---------------*/
-    /*Section Main*/
+    /*Section Aboutus*/
     /*---------------*/
     
     .aboutus {
-        height: 200vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1400px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rose {
+        color: #cc147f;
+        padding: 20px 4px;
+        margin-top: 120px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+    
+    .who-we-are h1 {
+        font-size: 54px;
+        margin-bottom: 70px;
+    }
+    
+    .who-we-are p {
+        color: #555;
+        font-size: 30px;
+    }
+    
+    .process {
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    .process-block {
+        max-width: 620px;
+        width: 100%;
+        height: 330px;
+        background-color: #fff;
+        display: flex;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    .number-line {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .number {
+        width: 48px;
+        height: 48px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #26bfb5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .line {
+        height: 100%;
+        width: 1px;
+        background-color: #ddd;
+        margin-top: 10px;
+    }
+    
+    .process-text {
+        width: 100%;
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+    
+    .process-text h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    
+    .process-text p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    /*---------------*/
+    /*Section Services*/
+    /*---------------*/
+    
+    .services {
+        display: flex;
+        justify-content: center;
+        background-color: #f1f1f1;
     }
