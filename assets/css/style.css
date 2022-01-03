@@ -412,5 +412,34 @@
     
     .services-block {
         margin-top: 50px;
-        background-color: #cc147f;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .services-block-service {
+        max-width: 380px;
+        margin: 10px;
+    }
+    
+    .services-block-icon {
+        padding: 5px;
+    }
+    
+    .services-block-icon img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .services-block-title {
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    
+    .services-block-text {
+        padding: 5px;
+        color: #555;
+        font-size: 20px;
+        line-height: 28px;
     }
