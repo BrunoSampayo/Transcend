@@ -334,12 +334,12 @@
         font-size: 16px;
     }
     
-    .who-we-are h1 {
+    .container-introduction h1 {
         font-size: 54px;
         margin-bottom: 70px;
     }
     
-    .who-we-are p {
+    .container-introduction p {
         color: #555;
         font-size: 30px;
     }
@@ -442,4 +442,64 @@
         color: #555;
         font-size: 20px;
         line-height: 28px;
+    }
+    /*---------------*/
+    /*Section Works */
+    /*---------------*/
+    
+    .works {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .works-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(12, 90px);
+        background-color: #ccc;
+        margin-top: 50px;
+    }
+    
+    .work-grid-img {}
+    
+    .grid-img1 {
+        grid-row: 1/8;
+        background-image: url(../../media/lamp.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .grid-img2 {
+        grid-row: 1/6;
+        background-image: url(../../media/salad.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .grid-img3 {
+        grid-row: 1 /8;
+        background-image: url(../../media/wood-craft.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .grid-img4 {
+        grid-row: 8/13;
+        background-image: url(../../media/fuji.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .grid-img5 {
+        grid-row: 6/13;
+        background-image: url(../../media/new-york.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .grid-img6 {
+        grid-row: 8/13;
+        background-image: url(../../media/lady.png);
+        background-position: center;
+        background-size: cover;
     }
