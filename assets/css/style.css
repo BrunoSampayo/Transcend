@@ -7,6 +7,7 @@
     
     body {
         font-family: 'Roboto Condensed', sans-serif;
+        overflow-x: hidden;
     }
     
     h1 {
@@ -334,6 +335,11 @@
         font-size: 16px;
     }
     
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    
     .container-introduction h1 {
         font-size: 54px;
         margin-bottom: 70px;
@@ -460,8 +466,6 @@
         margin-top: 50px;
     }
     
-    .work-grid-img {}
-    
     .grid-img1 {
         grid-row: 1/8;
         background-image: url(../../media/lamp.png);
@@ -502,4 +506,46 @@
         background-image: url(../../media/lady.png);
         background-position: center;
         background-size: cover;
+    }
+    /*---------------*/
+    /*Section clients */
+    /*---------------*/
+    
+    .clients {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .clients h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .clients-slider {
+        width: 1000vw;
+        height: 500px;
+        background-color: #ccc;
+        display: flex;
+        margin-left: ;
+    }
+    
+    .clients-slide {
+        width: 100vw;
+        height: 500px;
+        background-color: red;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .clients-layer {
+        width: 100%;
+        max-width: 1400px;
+        background-color: #ccc;
+        display: flex;
+        align-items: center;
     }
