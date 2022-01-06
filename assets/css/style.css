@@ -547,7 +547,7 @@
     
     .clients-slider {
         width: 1000vw;
-        height: 500px;
+        max-height: 500px;
         display: flex;
         animation: slideshow 20s infinite;
     }
@@ -611,9 +611,10 @@
     }
     
     .avatar-text p {
+        max-height: 200px;
         font-size: 25px;
         padding: 5px;
-        line-height: 38px;
+        line-height: 32px;
         margin-bottom: 35px;
     }
     
@@ -707,4 +708,53 @@
     
     .slider-button:hover {
         background-color: #000;
+    }
+    /*---------------*/
+    /*Section Stats  */
+    /*---------------*/
+    
+    .stats {
+        min-height: 350px;
+        width: 100%;
+        background-image: url(../../media/bg-footer.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .stats-container {
+        width: 100%;
+        min-height: 350px;
+        background-color: rgb(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .stats-block {
+        max-width: 380px;
+        min-width: 280px;
+        height: 300px;
+        width: 100%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .stats-block h1 {
+        font-size: 75px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        color: #fff;
+        width: 165px;
+        text-align: center;
+    }
+    
+    .stats-block span {
+        padding-top: 30px;
+        color: #555;
+        display: block;
+        font-size: 22px;
     }
